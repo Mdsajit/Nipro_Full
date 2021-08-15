@@ -1,0 +1,336 @@
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   /*header menu start*/
+   .logo{
+    font-size: 25px;
+   }
+   .header ul li a{
+        margin: 0 !important;
+    }
+    .h_icon{
+        min-width: 260px;
+        padding: 0;
+    }
+   .h_icon[data-bs-popper] {
+    left: 0px;
+    margin-top: 25px;
+}
+   /* slider css start */
+      .slider_content {
+        padding:60px 0;
+    }
+    .slider_content h1 {
+        font-size:27px !important;
+    }
+    .slider_content p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    .slider_btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+       /* slider css end */
+       /* service  css start */
+    .s-paragraph p {
+        font-size: 14px;
+}
+    /* service media css end */
+
+     /* about  css start */
+     .s-title {
+         margin-top: 10px !important;
+        margin-bottom: 10px;
+        
+    
+    }
+     .p-about1 {
+        margin-bottom:20px;
+        line-height: 22px;
+        font-size: 15px;
+    }
+    .p-about2 {
+        line-height: 22px;
+        font-size: 15px;
+    }
+    /* about media css end */
+    /*about css end*/
+    /* work portfolio media start */
+    .nav-button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    .bottom-title {
+        padding: 10px 20px;
+    }
+    .bottom-title h2 {
+        margin-bottom: 0;
+        font-size: 16px;    
+    }
+    .middle-icon i {
+        margin-top: -45px;
+        font-size: 45px;
+    }
+    /* work portfolio media end */
+    /* choose us media css start */
+    .choose-item {
+        text-align: center;
+    }
+    .u_heading h2 {
+    text-align: center;
+   
+}
+
+    /* choose us media css end */
+/*Ash start*/
+.slider-btn {
+    
+    display: inline-block;
+    padding: 9px 17px;
+    
+}
+.nipro_text h1 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    }
+    /*Ash End*/
+    /* testimonial media css start */
+    .testimonial_btn_wrapper {
+        display: flex !important;
+        flex-direction: row !important;
+        margin-top: 15px;
+    }
+    .testimonial_prev, .testimonial_next {
+        margin: 10px 0;
+        transform: rotate(0deg);
+    }
+    .prev-icon, .next-icon {
+        margin: 0 26px;
+    }
+    .one_p {
+        margin: 15px 0;
+        font-size: 15px;
+    }
+    .two_p {
+        font-size: 15px;
+    }
+    .client_intro {
+        margin-top: 20px;
+}
+    /* testimonial media css end */
+    /* footer contact start */
+    .cs_social {
+        margin-bottom: 55px;
+    }
+    .cs_social ul li a {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;  
+    }
+    .footer_btm_link ul li a{
+        font-size: 13px;
+    }
+    .f-text p{
+        font-size: 13px;
+    }
+    /* footer contact end */
+
+}
+ 
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+   /*header menu start*/
+   .header ul li a{
+        margin: 0 !important;
+    }
+    .h_icon{
+        min-width: 345px;
+        padding: 0;
+    }
+   .h_icon[data-bs-popper] {
+    left: 0px;
+    margin-top: 25px;
+}
+/* slider css start */
+   .slider_content {
+    padding: 110px 0;
+}
+.slider_content h1 {
+    font-size: 40px;
+}
+.slider_content p {
+    font-size: 15px;
+}
+   /* slider css end */
+/*service css start*/
+ .s-paragraph p {
+    font-size: 15px;
+}
+ 
+/*service css end*/
+/*about start*/
+.s-title {
+     margin-top: 10px!important;
+    margin-bottom: 10px;
+    
+}
+.p-about1 {
+    margin-bottom:20px;
+    line-height: 22px;
+    font-size: 15px;
+}
+.p-about2 {
+    line-height: 22px;
+    font-size: 15px;
+}
+/*about end*/
+/* work portfolio media start */
+.nav-button {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+.bottom-title {
+    padding: 10px 20px;
+}
+.bottom-title h2 {
+    margin-bottom: 0;
+    font-size: 16px;    
+}
+.middle-icon i {
+    margin-top: -45px;
+    font-size: 45px;
+}
+/* work portfolio media end */
+/*team us part start*/
+.member h2{
+    font-size: 15px;
+}
+.member_social ul li a{
+  font-size: 15px;
+}
+/*Ash start*/
+.slider-btn {
+    display: inline-block;
+    padding: 9px 17px;
+    
+}
+.nipro_text h1 {
+    text-align: center;
+    font-size: 16px;
+    }
+    /*Ash End*/
+/*team us part end*/
+/*testimonial start*/
+.testimonial_btn_wrapper{
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top: 15px;
+}
+.testimonial_prev, .testimonial_next {
+        margin: 15px 0;
+        transform: rotate(0deg);
+    }
+    .prev-icon, .next-icon{
+        margin-top: 0 26px;
+    }
+    .client_intro{
+        margin-top: 20px;
+    }
+/*testimonial end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991.98px) {
+    /*header menu start*/
+    .header ul li a{
+        margin: 0 !important;
+    }
+    .h_icon{
+        min-width: 345px;
+        padding: 0;
+    }
+   .h_icon[data-bs-popper] {
+    left: 0px;
+    margin-top: 25px;
+}
+/*header menu end*/
+/*service start*/
+ .s-paragraph p {
+    margin-bottom: 40px;
+}
+ .s-title {
+     margin-top: 10px!important;
+    margin-bottom: 10px;
+    
+}
+/*about part start*/
+.s-title {
+     margin-top: 10px!important;
+    margin-bottom: 10px;
+    
+}
+.p-about1 {
+    margin-bottom:20px;
+    line-height: 22px;
+    font-size: 15px;
+}
+.p-about2 {
+    line-height: 22px;
+    font-size: 15px;
+}
+/*about part end*/
+/*service end*/
+/*work portfolio media start*/
+.custom_buton{
+    padding: 6px 10px;
+    font-size: 15px;
+}
+.btm_title{
+    padding: 10px 20px;
+}
+.btm_title h2{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.middle_icon i{
+    margin-top: -45px;
+    font-size: 45px;
+}
+/*work portfolio media end*/
+/*team us part start*/
+.member h2{
+    font-size: 15px;
+}
+.member_social ul li a{
+  font-size: 15px;
+}
+/*team us part end*/
+/*testimonial css start*/
+.client_intro{
+    margin-top: 20px;
+}
+/*testimonial css end*/
+}
+    
+
+
+ 
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+ }
